@@ -37,7 +37,11 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 02010308
+#define CONFIGURATION_H_VERSION 02010309
+#define KEEFO_VERSION           CONFIGURATION_H_VERSION
+#define KEEFO_VERSION_DISPLAY   "2.1.3.9"
+#define KEEFO_VERSION_DATE      "2024-05-14"
+#define KEEFO_WEBSITE           "beyondcow.com"
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -1839,8 +1843,8 @@
 // @section geometry
 
 // The size of the printable area
-#define X_BED_SIZE 220
-#define Y_BED_SIZE 220
+#define X_BED_SIZE 235
+#define Y_BED_SIZE 235
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
@@ -2719,7 +2723,7 @@
 //
 //  Set this option if CLOCKWISE causes values to DECREASE
 //
-//#define REVERSE_ENCODER_DIRECTION
+#define REVERSE_ENCODER_DIRECTION
 
 //
 // This option reverses the encoder direction for navigating LCD menus.
